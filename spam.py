@@ -13,7 +13,7 @@ bot.set_my_commands([telebot.types.BotCommand("/start", "بدء البوت"),tel
 @bot.message_handler(commands=['start'])
 def start(message):
     keyboar = InlineKeyboardMarkup()
-    transparent_button = InlineKeyboardButton(text="انضم بقناتي فضلاا", url="https://t.me/uiujq", callback_data="button1")
+    transparent_button = InlineKeyboardButton(text="انضم بقناتي فضلاا", url="https://t.me/VV_P3", callback_data="button1")
     keyboar.add(transparent_button)
     t = '''
 اهلا بك عزيزي في البوت
@@ -36,13 +36,13 @@ last_message_text = ""
 @bot.message_handler(commands=['asia'])
 def send_welcome(message):
     keyboardd = InlineKeyboardMarkup()
-    transparent_button = InlineKeyboardButton(text="انضم بقناتي فضلاا", url="https://t.me/uiujq", callback_data="button1")
+    transparent_button = InlineKeyboardButton(text="انضم بقناتي فضلاا", url="https://t.me/VV_P3", callback_data="button1")
     keyboardd.add(transparent_button)
     
     
     global last_message_text
     last_message_text = ""
-    bot.reply_to(message, " حسناا ارسل رقم الهاتف الذي تريد ارسال سبام اليه\n@M02MM",reply_markup=keyboardd)
+    bot.reply_to(message, " حسناا ارسل رقم الهاتف الذي تريد ارسال سبام اليه\n@H1HH2",reply_markup=keyboardd)
 
 @bot.message_handler(func=lambda message: True if message.text.isnumeric() else False)
 def send_verification_code(message):
@@ -82,11 +82,11 @@ def send_verification_code(message):
 @bot.message_handler(commands=['email'])
 def send_spam_email(message):
     keyboard = InlineKeyboardMarkup()
-    transparent_button = InlineKeyboardButton(text="انضم بقناتي فضلاا", url="https://t.me/uiujq", callback_data="button1")
-    keyboard.add(transparent_button)
+    transparent_button = InlineKeyboardButton(text="انضم بقناتي فضلاا", url="https://t.me/VV_P3", callback_data="button1")
+    keyboard.add(transparent_button)u
 
     
-    bot.send_message(message.chat.id, "حسناا ارسل الاميل الذي تريد ارسال سبام اليه \n@M02MM",reply_markup=keyboard)
+    bot.send_message(message.chat.id, "حسناا ارسل الاميل الذي تريد ارسال سبام اليه \n@H1HH2",reply_markup=keyboard)
     
     bot.register_next_step_handler(message, process_email)
 
