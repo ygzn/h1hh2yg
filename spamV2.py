@@ -83,7 +83,7 @@ def send_verification_code(message):
 def send_spam_email(message):
     keyboard = InlineKeyboardMarkup()
     transparent_button = InlineKeyboardButton(text="انضم بقناتي فضلاا", url="https://t.me/VV_P3", callback_data="button1")
-    keyboard.add(transparent_button)u
+    keyboard.add(transparent_button)
 
     
     bot.send_message(message.chat.id, "حسناا ارسل الاميل الذي تريد ارسال سبام اليه \n@H1HH2",reply_markup=keyboard)
