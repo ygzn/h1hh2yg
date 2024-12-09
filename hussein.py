@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import base64
 
-token = "5141864359:AAEJoVDAhaWg888PIO4OmCa_Iq6s244ov1I"
+token = "5141864359:AAGzKYudjSJdZTO_CdUNzrCiw8ivx-XkUKs"
 bot = telebot.TeleBot(token)
 
 
