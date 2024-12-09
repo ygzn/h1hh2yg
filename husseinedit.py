@@ -13,7 +13,7 @@ def welcome(message):
  xx = types.InlineKeyboardMarkup()
  xx.add(btn1)
  xx.add(btn2)
- bot.reply_to(message,f'مرحبا بك عزيزي المستخدم [{name}](tg://settings)\n\n- في بوت تشفير وفك تشفير @GYYY3Y \n\n- للبدأ اضغط على الازرار',reply_markup=xx,parse_mode="markdown")
+ bot.reply_to(message,f'مرحبا بك عزيزي المستخدم [{name}](tg://settings)\n\n- في بوت تشفير وفك تشفير @H1HH2 \n\n- للبدأ اضغط على الازرار',reply_markup=xx,parse_mode="markdown")
  
 @bot.callback_query_handler(func=lambda call:True)
 def code(call):
